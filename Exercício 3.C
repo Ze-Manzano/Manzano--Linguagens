@@ -13,14 +13,13 @@ int main() {
         return 1;
     }
 
-    // Converte para binario
     while (n > 0) {
         binario[i] = n % 2;
         n = n / 2;
         i++;
     }
 
-    // Mostra o resultado
+    
     printf("Valor em binario: ");
 
     for (i = i - 1; i >= 0; i--) {
