@@ -66,7 +66,6 @@ int main(int argc, char *argv[]) {
 #include <stdlib.h>
 
 int main() {
-
     double salario, salariofinal, desconto;
 
     printf("Digite o valor de seu salario: ");
@@ -102,6 +101,9 @@ int main() {
         printf("Seu salario agora e de: %.2lf\n", salariofinal);
 
     }
+
+    return 0;
+}
 
 //Exercício 4 (08)
 #include <stdio.h>
