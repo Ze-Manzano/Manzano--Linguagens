@@ -1,4 +1,4 @@
-//Exercício 1
+//Exercício 1 (05)
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -59,3 +59,46 @@ int main(int argc, char *argv[]) {
     return 0;
 
 }
+
+
+//Exercício 3 (07)
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+    double salario, salariofinal, desconto;
+
+    printf("Digite o valor de seu salario: ");
+    scanf("%lf", &salario);
+
+    if (salario <= 1412.00) {
+
+        desconto = salario * 0.075;
+        salariofinal = salario - desconto;
+        printf("Seu salario agora e de: %.2lf\n", salariofinal);
+
+    }
+    else if (salario >=1412.01 & salario <=2666.68) {
+
+        desconto = salario * 0.09;
+        salariofinal = salario - desconto;
+        printf("Seu salario agora e de: %.2lf\n", salariofinal);
+
+    }
+
+    else if (salario >= 2666.69 & salario <=4000.03) {
+
+        desconto = salario * 0.12;
+        salariofinal = salario - desconto;
+        printf("Seu salario agora e de: %.2lf\n", salariofinal);
+
+    }
+
+    else if (salario >= 4000.04) {
+
+        desconto = salario * 0.14;
+        salariofinal = salario - desconto;
+        printf("Seu salario agora e de: %.2lf\n", salariofinal);
+
+    }
