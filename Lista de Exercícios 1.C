@@ -1,3 +1,4 @@
+//Exercicio 1
 #include <stdio.h>
 
 int main() {
@@ -12,6 +13,20 @@ int main() {
     printf("\nNumeros na ordem inversa:\n");
     printf("%d\n", num2);
     printf("%d\n", num1);
+
+    return 0;
+}
+
+//Exercicio 2
+#include <stdio.h>
+
+int main() {
+    double valor;
+
+    printf("Digite um valor positivo: ");
+    scanf("%lf", &valor);
+
+    printf("Notacao cientifica: %e\n", valor);
 
     return 0;
 }
